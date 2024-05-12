@@ -13,12 +13,12 @@ const AppRouter = () => {
         <Router>
             <Routes>
 
-                <Route path="/nav" element={<NavigationBar />}>
+                <Route path="/" element={<NavigationBar />}>
                     <Route path="movies" element={<Movies />}>
                         <Route path="movie" element={<Movie />} />
                     </Route>
 
-                    <Route path="movie-details" element={<MoviesDetails />} />
+                    <Route path="movie-details/:id" element={<MoviesDetails />} />
                     <Route path="wishlist" element={<Wishlist />} />
                     <Route path="*" element={<NotFound />} />
 

@@ -55,12 +55,14 @@ export default function Movies() {
                 />
                 <button type="submit">Search</button>
             </form>
-            {noResults && <p>No result found</p>}
             {
                 (filteredMovies.length > 0 ? filteredMovies : movies).map(movie => (
                     <Movie key={movie.id} movie={movie} />
                 ))
+
+
             }
+
         </div>
     );
 }

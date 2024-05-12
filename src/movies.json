@@ -6,7 +6,13 @@
       "year": "2020",
       "img": "placeholder.jpg",
       "genre": "drama",
-      "description": "Le lorem ipsum est, en imprimerie…… "
+      "description": "Le lorem ipsum est, en imprimerie…… ",
+      "note": [
+        "20",
+        "40",
+        "40",
+        "50"
+      ]
     },
     {
       "id": 2,
@@ -14,7 +20,13 @@
       "year": "2018",
       "img": "placeholder.jpg",
       "genre": "comedy",
-      "description": "Le lorem ipsum est, en imprimerie……."
+      "description": "Le lorem ipsum est, en imprimerie…….",
+      "note": [
+        "60",
+        "20",
+        "80",
+        "20"
+      ]
     }
   ]
 }
